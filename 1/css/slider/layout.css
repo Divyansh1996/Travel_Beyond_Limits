@@ -1,0 +1,75 @@
+.clear
+{
+clear:both;
+}
+.bannerpart
+{
+width:1981px;
+ /*float:left;*/ 
+clear:both; 
+box-shadow: 0px 10px 15px #888;
+}
+.banner_content
+{
+width:981px;
+ /*float:left;*/
+ clear:both;
+ height:303px;
+ 
+}
+.banner_content .leftImg
+{
+width:1267px; 
+float:left; 
+margin:64px 0 0 206px
+}
+.banner_content .leftImg img
+{ 
+cursor:pointer;
+}
+.banner_content .rightText
+{
+width:229px; 
+float:left; 
+margin:70px 0 0 271px
+}
+.banner_content .rightText p
+{
+ padding:0px; 
+margin:0px;
+}
+#nav
+{
+top:260px; 
+left:800px;
+position:absolute;
+ z-index:9999; 
+width:185px; 
+text-align:center;
+ font-family:Arial, Helvetica, sans-serif; 
+font-size:12px; 
+color:#FFF; 
+height:9px;
+}
+#nav a
+{
+font-family:Arial, Helvetica, sans-serif;
+ font-size:12px; 
+color:#FFF; 
+background:url(pagination.png) left bottom no-repeat; 
+text-indent:-999999px; 
+padding:0px 5px 0 5px;
+float:left; 
+line-height:9px; 
+margin-right:4px;
+}
+#nav a:hover, #nav a.activeSlide
+{
+background:url(pagination.png) left top no-repeat;
+}
+.row1 
+{
+position:relative; 
+display:block; 
+clear:both;
+}
